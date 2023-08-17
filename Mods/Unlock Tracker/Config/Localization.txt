@@ -1,0 +1,10 @@
+Key,English
+attUnlocksDesc,Check items what you unlocked.
+attUnlocksDescRank1Desc,Unlock crafting
+attUnlocksName,Unlock Tracker
+skillunlocksModsName,Mod
+skillunlocksFoodsName,Food
+skillunlocksArmorsName,Armor
+skillunlocksApparelsName,Apparel
+skillunlocksAmmosName,Ammo
+skillunlocksResourcesName,Resource
