@@ -1,0 +1,10 @@
+<config>
+	<!-- Unlock Tracker -->
+	<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel[@pos='3,-3']">
+		<panel depth="1" pos="3,-3" width="410" height="37" disableautobackground="true">
+			<grid name="categories" pos="18,-20" rows="1" cols="9" width="663" height="34" cell_width="40" cell_height="43" repeat_content="true" controller="CategoryList">
+				<category_icon/>
+			</grid>
+		</panel>
+	</set>
+</config>

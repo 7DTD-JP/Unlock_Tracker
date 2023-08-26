@@ -277,7 +277,7 @@
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkmodArmorPlatingReinforcedSchematic" parent="skillunlocksMods" max_level="1" base_skill_point_cost="0" name_key="modArmorPlatingReinforced" desc_key="modArmorPlatingReinforcedDesc" icon="ui_game_symbol_misc_crafting">
+		<perk name="perkmodArmorPlatingReinforcedSchematic" parent="skillunlocksMods" max_level="1" base_skill_point_cost="0" name_key="modArmorPlatingReinforced" desc_key="modArmorPlatingBasicDesc" icon="ui_game_symbol_misc_crafting">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="modArmorPlatingReinforced"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
@@ -525,13 +525,13 @@
 				<requirement name="ProgressionLevel" progression_name="perkNeedleAndThreadComplete" operation="GTE" value="1"/>
 			</triggered_effect>
 		</append>
-		<perk name="perkapparelFlannelShirtSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelFlannelShirt" desc_key="apparelFlannelShirtDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelFlannelShirtSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelFlannelShirt" desc_key="apparelLongShirtGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelFlannelShirt"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelSweatshirtSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelSweatshirt" desc_key="apparelSweatshirtShirtDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelSweatshirtSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelSweatshirt" desc_key="apparelLongShirtGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelSweatshirt"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
@@ -549,13 +549,13 @@
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelOverallsSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelOveralls" desc_key="apparelOverallsDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelOverallsSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelOveralls" desc_key="apparelDenimPantsDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelOveralls"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelSkirtSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelSkirt" desc_key="apparelSkirtDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelSkirtSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelSkirt" desc_key="apparelDenimPantsDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelSkirt"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
@@ -567,19 +567,19 @@
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelRunningShoesRegularSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelRunningShoesRegular" desc_key="apparelRunningShoesRegularDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelRunningShoesRegularSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelRunningShoesRegular" desc_key="apparelClothGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelRunningShoesRegular"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelCowboyBootsSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelCowboyBoots" desc_key="apparelCowboyBootsDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelCowboyBootsSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelCowboyBoots" desc_key="apparelLeatherClothesGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelCowboyBoots"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelSuitDressShoesSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelSuitDressShoes" desc_key="apparelSuitDressShoesDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelSuitDressShoesSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelSuitDressShoes" desc_key="apparelSuitGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelSuitDressShoes"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
@@ -591,25 +591,25 @@
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelTShirtPlainSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelTShirtPlain" desc_key="apparelTShirtPlainDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelTShirtPlainSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelTShirtPlain" desc_key="apparelTShirtGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelTShirtPlain"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelCowboyHatSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelCowboyHat" desc_key="apparelCowboyHatDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelCowboyHatSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelCowboyHat" desc_key="apparelCowboyHatGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelCowboyHat"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelDenimShortsPantsSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelDenimShortsPants" desc_key="apparelDenimShortsPantsDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelDenimShortsPantsSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelDenimShortsPants" desc_key="apparelDenimPantsDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelDenimShortsPants"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelCoatLeatherDusterSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelCoatLeatherDuster" desc_key="apparelCoatLeatherDusterDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelCoatLeatherDusterSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelCoatLeatherDuster" desc_key="apparelLeatherClothesGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelCoatLeatherDuster"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
@@ -627,13 +627,13 @@
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelArmyPantsSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelArmyPants" desc_key="apparelArmyPantsDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelArmyPantsSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelArmyPants" desc_key="apparelDenimPantsDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelArmyPants"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelArmyShirtSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelArmyShirt" desc_key="apparelArmyShirtDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelArmyShirtSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelArmyShirt" desc_key="apparelLongShirtGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelArmyShirt"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
@@ -964,19 +964,19 @@
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelGhillieSuitHoodSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelGhillieSuitHood" desc_key="apparelGhillieSuitHoodDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelGhillieSuitHoodSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelGhillieSuitHood" desc_key="apparelGhillieSuitGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelGhillieSuitHood"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelGhillieSuitJacketSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelGhillieSuitJacket" desc_key="apparelGhillieSuitJacketDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelGhillieSuitJacketSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelGhillieSuitJacket" desc_key="apparelGhillieSuitGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelGhillieSuitJacket"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkapparelGhillieSuitPantsSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelGhillieSuitPants" desc_key="apparelGhillieSuitPantsDesc" icon="ui_game_symbol_light_armor">
+		<perk name="perkapparelGhillieSuitPantsSchematic" parent="skillunlocksApparels" max_level="1" base_skill_point_cost="0" name_key="apparelGhillieSuitPants" desc_key="apparelGhillieSuitGroupDesc" icon="ui_game_symbol_light_armor">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="apparelGhillieSuitPants"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
@@ -1794,19 +1794,19 @@
 					<effect_description level="1" desc_key="ammoGasCanBundleSchematicSchematicRank1Desc"/>
 				</effect_group>
 			</perk> -->
-		<perk name="perkammoBundle44MagnumBulletAPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle44MagnumBulletAP" desc_key="ammoBundle44MagnumBulletAPDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundle44MagnumBulletAPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle44MagnumBulletAP" desc_key="ammo44MagnumBulletAPDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle44MagnumBulletAP"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundle44MagnumBulletHPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle44MagnumBulletHP" desc_key="ammoBundle44MagnumBulletHPDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundle44MagnumBulletHPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle44MagnumBulletHP" desc_key="ammo44MagnumBulletHPDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle44MagnumBulletHP"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundle44MagnumBulletBallSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle44MagnumBulletBall" desc_key="ammoBundle44MagnumBulletBallDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundle44MagnumBulletBallSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle44MagnumBulletBall" desc_key="ammo44MagnumBulletBallDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle44MagnumBulletBall"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
@@ -1860,115 +1860,115 @@
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleArrowStoneSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleArrowStone" desc_key="ammoBundleArrowStoneDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleArrowStoneSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleArrowStone" desc_key="ammoArrowStoneDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleArrowStone"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleArrowIronSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleArrowIron" desc_key="ammoBundleArrowIronDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleArrowIronSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleArrowIron" desc_key="ammoArrowIronDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleArrowIron"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleArrowFlamingSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleArrowFlaming" desc_key="ammoBundleArrowFlamingDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleArrowFlamingSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleArrowFlaming" desc_key="ammoArrowFlamingDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleArrowFlaming"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleCrossbowBoltFlamingSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleCrossbowBoltFlaming" desc_key="ammoBundleCrossbowBoltFlamingDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleCrossbowBoltFlamingSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleCrossbowBoltFlaming" desc_key="ammoCrossbowBoltFlamingDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleCrossbowBoltFlaming"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleArrowSteelAPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleArrowSteelAP" desc_key="ammoBundleArrowSteelAPDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleArrowSteelAPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleArrowSteelAP" desc_key="ammoArrowSteelAPDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleArrowSteelAP"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleCrossbowBoltExplodingSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleCrossbowBoltExploding" desc_key="ammoBundleCrossbowBoltExplodingDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleCrossbowBoltExplodingSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleCrossbowBoltExploding" desc_key="ammoCrossbowBoltExplodingDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleCrossbowBoltExploding"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleArrowExplodingSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleArrowExploding" desc_key="ammoBundleArrowExplodingDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleArrowExplodingSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleArrowExploding" desc_key="ammoArrowExplodingDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleArrowExploding"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleCrossbowBoltIronSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleCrossbowBoltIron" desc_key="ammoBundleCrossbowBoltIronDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleCrossbowBoltIronSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleCrossbowBoltIron" desc_key="ammoCrossbowBoltIronDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleCrossbowBoltIron"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleCrossbowBoltSteelAPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleCrossbowBoltSteelAP" desc_key="ammoBundleCrossbowBoltSteelAPDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleCrossbowBoltSteelAPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleCrossbowBoltSteelAP" desc_key="ammoCrossbowBoltSteelAPDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleCrossbowBoltSteelAP"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleCrossbowBoltStoneSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleCrossbowBoltStone" desc_key="ammoBundleCrossbowBoltStoneDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleCrossbowBoltStoneSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleCrossbowBoltStone" desc_key="ammoCrossbowBoltStoneDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleCrossbowBoltStone"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundle9mmBulletBallSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle9mmBulletBall" desc_key="ammoBundle9mmBulletBallDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundle9mmBulletBallSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle9mmBulletBall" desc_key="ammo9mmBulletBallDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle9mmBulletBall"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundle9mmBulletBallHPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle9mmBulletHP" desc_key="ammoBundle9mmBulletHPDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundle9mmBulletBallHPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle9mmBulletHP" desc_key="ammo9mmBulletHPDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle9mmBulletHP"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundle9mmBulletBallAPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle9mmBulletAP" desc_key="ammoBundle9mmBulletAPDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundle9mmBulletBallAPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle9mmBulletAP" desc_key="ammo9mmBulletAPDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle9mmBulletAP"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleShotgunShellSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleShotgunShell" desc_key="ammoBundleShotgunShellDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleShotgunShellSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleShotgunShell" desc_key="ammoShotgunShellDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleShotgunShell"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleShotgunSlugSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleShotgunSlug" desc_key="ammoBundleShotgunSlugDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleShotgunSlugSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleShotgunSlug" desc_key="ammoShotgunSlugDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleShotgunSlug"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundleShotgunBreachingSlugSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleShotgunBreachingSlug" desc_key="ammoBundleShotgunBreachingSlugDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundleShotgunBreachingSlugSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundleShotgunBreachingSlug" desc_key="ammoShotgunBreachingSlugDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleShotgunBreachingSlug"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundle762mmBulletBallSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle762mmBulletBall" desc_key="ammoBundle762mmBulletBallDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundle762mmBulletBallSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle762mmBulletBall" desc_key="ammo762mmBulletBallDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle762mmBulletBall"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundle762mmBulletHPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle762mmBulletHP" desc_key="ammoBundle762mmBulletHPDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundle762mmBulletHPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle762mmBulletHP" desc_key="ammo762mmBulletHPDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle762mmBulletHP"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
 			</effect_group>
 		</perk>
-		<perk name="perkammoBundle762mmBulletAPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle762mmBulletAP" desc_key="ammoBundle762mmBulletAPDesc" icon="ui_game_symbol_shopping_cart">
+		<perk name="perkammoBundle762mmBulletAPSchematic" parent="skillunlocksAmmos" max_level="1" base_skill_point_cost="0" name_key="ammoBundle762mmBulletAP" desc_key="ammo762mmBulletAPDesc" icon="ui_game_symbol_shopping_cart">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle762mmBulletAP"/>
 				<effect_description level="1" desc_key="attUnlocksDescRank1Desc"/>
