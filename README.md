@@ -1,26 +1,31 @@
 # Unlock_Tracker
 You can now track what is craftable items has been unlocked. All of craftable items are listed that is unlocked by books.
 
-## Ver.1.0.2
+## Updates
+### Ver.1.0.2
 Added windows.xml for compatible with other mods.<br>
 
-## Ver.1.0.1
+### Ver.1.0.1
 Fixed localization<br>
 Added perk column to compatible with other mods. Note: Pilot mod, not all other mods compatible.<br>
 
-## Ver.1.0.0
+### Ver.1.0.0
 Newly released<br>
 *We tested mods but in case you found bugs or you have some future ideas, please join our Discord and let us know.
 
-## Join our projects
-1. Join Discord: https://discord.gg/Va9CMv59Ej
-2. Choose your language in Welcome channel
-3. Hit "Unlock Tracker" button in Join_project channel.
-4. Feel free discussion in Tasks channel.  
+## Mod compatibility
+This mod is a server-side mod and it was created to be compatible with vanilla as well as other mods. However, the mod may affect your server if you have made any changes regarding the followings.
+
+## MOD install
+Copy the "Action Skills Plus" folder under the Mods folder.
+
+## Mod support
+All support for mods is available on Discord. After joining server, select "Unlock Tracker".
+Discord: [Link](https://discord.gg/Va9CMv59Ej)
 
 ## Links
-Discord for support: https://discord.gg/Va9CMv59Ej<br>
-Forum for general discussions: https://community.7daystodie.com/topic/33653-unlock-tracker/<br>
+Git Hub: [Link](https://github.com/7DTD-JP/Unlock_Tracker)
+Forum: [Link](https://community.7daystodie.com/topic/33653-unlock-tracker/)
 
 ## Credits
 Robear, Adreden Gaming
