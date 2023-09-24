@@ -20,11 +20,11 @@ This mod is a server-side mod and it was created to be compatible with vanilla a
 Copy the "Action Skills Plus" folder under the Mods folder.
 
 ## Mod support
-All support for mods is available on Discord. After joining server, select "Unlock Tracker".
+All support for mods is available on Discord. After joining server, select "Unlock Tracker".<br>
 Discord: [Link](https://discord.gg/Va9CMv59Ej)
 
 ## Links
-Git Hub: [Link](https://github.com/7DTD-JP/Unlock_Tracker)
+Git Hub: [Link](https://github.com/7DTD-JP/Unlock_Tracker)<br>
 Forum: [Link](https://community.7daystodie.com/topic/33653-unlock-tracker/)
 
 ## Credits
