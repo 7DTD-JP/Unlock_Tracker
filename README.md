@@ -1,6 +1,9 @@
 # Unlock_Tracker
 You can now track what is craftable items has been unlocked. All of craftable items are listed that is unlocked by books.
 
+## Ver.1.0.2
+Added windows.xml for compatible with other mods.<br>
+
 ## Ver.1.0.1
 Fixed localization<br>
 Added perk column to compatible with other mods. Note: Pilot mod, not all other mods compatible.<br>
