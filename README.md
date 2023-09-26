@@ -25,7 +25,6 @@ Discord: [Link](https://discord.gg/Va9CMv59Ej)
 
 ## Links
 Git Hub: [Link](https://github.com/7DTD-JP/Unlock_Tracker)<br>
-Forum: [Link](https://community.7daystodie.com/topic/33653-unlock-tracker/)
 
 ## Credits
 Robear, Adreden Gaming
